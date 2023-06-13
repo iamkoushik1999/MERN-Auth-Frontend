@@ -1,11 +1,10 @@
-import Header from "./components/Header";
-import HomeScreen from "./screens/HomeScreen";
+import Header from "./components/Header.jsx";
 
 const App = () => {
   return (
     <>
       <Header />
-      <HomeScreen />
+      <h1>MERN Auth</h1>
     </>
   );
 };
