@@ -1,9 +1,13 @@
-import React from 'react'
+import Header from "./components/Header";
+import HomeScreen from "./screens/HomeScreen";
 
 const App = () => {
   return (
-    <div>MERN Auth</div>
-  )
-}
+    <>
+      <Header />
+      <HomeScreen />
+    </>
+  );
+};
 
-export default App
+export default App;
